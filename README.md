@@ -1,5 +1,5 @@
 📌 Overview
-This project implements a machine learning-based Network Intrusion Detection System (NIDS) to classify network traffic as **Normal** or **Attack** using the NSL-KDD dataset.
+- This project implements a machine learning-based Network Intrusion Detection System (NIDS) to classify network traffic as **Normal** or **Attack** using the NSL-KDD dataset.
 
 🎯 Features
 * Data preprocessing and encoding
@@ -15,8 +15,8 @@ This project implements a machine learning-based Network Intrusion Detection Sys
 * Streamlit
 
 🚀 How to Run
-pip install pandas numpy scikit-learn streamlit
-python -m streamlit run main.py
+- pip install pandas numpy scikit-learn streamlit
+- python -m streamlit run main.py
 
 📊 Performance
 * Accuracy: ~92%
@@ -24,4 +24,4 @@ python -m streamlit run main.py
 * Reduced false negatives using threshold tuning
 
 ⚠️ Note
-System prioritizes detecting attacks (high recall), which may increase false alarms.
+- System prioritizes detecting attacks (high recall), which may increase false alarms.
